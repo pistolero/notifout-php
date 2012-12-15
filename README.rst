@@ -22,5 +22,5 @@ Usage
 
     require "notifout.php";
 
-    notifout = new Notifout('ohsh6Iez3Nah0ahmohz2ge');
-    notifout->send('signup', 'Dummy User <user@example.com>', array("first_name" => "Dummy"})
+    $notifout = new Notifout('ohsh6Iez3Nah0ahmohz2ge');
+    $notifout->send('signup', 'Dummy User <user@example.com>', array("first_name" => "Dummy"));
